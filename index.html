@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpeedCode</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/img/logo.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+        data-dapp-detection="">!function () { let e = !1; function n() { if (!e) { const n = document.createElement("meta"); n.name = "dapp-detected", document.head.appendChild(n), e = !0 } } if (window.hasOwnProperty("ethereum")) { if (window.__disableDappDetectionInsertion = !0, void 0 === window.ethereum) return; n() } else { var t = window.ethereum; Object.defineProperty(window, "ethereum", { configurable: !0, enumerable: !1, set: function (e) { window.__disableDappDetectionInsertion || n(), t = e }, get: function () { if (!window.__disableDappDetectionInsertion) { const e = arguments.callee; e && e.caller && e.caller.toString && -1 !== e.caller.toString().indexOf("getOwnPropertyNames") || n() } return t } }) } }();</script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="inner-width">
+            <a href="#" class="logo"></a>
+            <button class="menu-toggler">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="navbar-menu">
+                <a href="#">Accueil</a>
+                <a href="#about">À propos</a>
+                <a href="#projects">Mes projets</a>
+                <a href="#logiciels">Mes logiciels</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+        <div class="inner-width">
+            <div class="content">
+                <h1>Salut je suis </h1>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="inner-width">
+            <h1 class="section-title">A propos</h1>
+            <div class="about-content" id="skills">
+                <img src="assets/img/logo.png" class="about-pic">
+                <div class="about-text">
+                    <h3 class="reveal">
+                        <span>Développeur</span>
+                        <span>Designer</span>
+                        <span>YouTubeur</span>
+                    </h3>
+                    <p class="reveal">
+                        Je m'appelle Raouf, j'ai <span class="age">600</span> ans et je suis développeur depuis
+                        maintenant <span class="since">-1</span> ans. Je suis passioné par tout ce qui est programmation
+                        mais je suis plus interressé par ce qui est développement desktop. Je fais du C#, du C, du NodeJS et du Go. 
+                    </p>
+                </div>
+            </div>
+
+            <div class="skills">
+                <div class="skill">
+                    <div class="skill-info">
+                        <span class="reveal">C#</span>
+                        <span class="reveal">85%</span>
+                    </div>
+                    <div class="skill-bar csharp"></div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-info">
+                        <span class="reveal">C</span>
+                        <span class="reveal">15%</span>
+                    </div>
+                    <div class="skill-bar cpp"></div>
+                </div> 
+
+                <div class="skill">
+                    <div class="skill-info">
+                        <span class="reveal">NodeJS</span>
+                        <span class="reveal">80%</span>
+                    </div>
+                    <div class="skill-bar js"></div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-info">
+                        <span class="reveal">GoLang</span>
+                        <span class="reveal">35%</span>
+                    </div>
+                    <div class="skill-bar golang"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="light-dark">
+        <div class="inner-width">
+            <h1 class="section-title">Mes projets</h1>
+
+            <div class="projets">
+                <div class="projet">
+                    <i class="icon fas fa-gamepad"></i>
+
+                    <h4 class="reveal"><a href="https://www.eclipium.xyz">Eclipium</a></h4>
+                    <p class="reveal">Mon studio de création de jeux vidéo.</p>
+                </div>
+
+                <div class="projet">
+                    <i class="icon fas fa-music"></i>
+
+                    <h4 class="reveal"><a href="https://github.com/SpeedCode210/Citole">Citole</a></h4>
+                    <p class="reveal">Ma reconnaissance vocale pour instruments de musique, encore en développement.</p>
+                </div>
+
+                <div class="projet">
+                    <i class="icon fas fa-server"></i>
+
+                    <h4 class="reveal"><a href="https://github.com/eclipium/EclipiumServerManager">ESM</a></h4>
+                    <p class="reveal">Un gestionnaire d'applications pour serveurs Linux compatible : .NET, Go, NodeJS, Python et Java.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="logiciels" class="dark">
+        <div class="inner-width">
+            <div class="logiciels">
+                <div class="logiciel">
+                    <i class="icon fas fa-window-maximize"></i>
+
+                    <h4 class="reveal"><a href="https://github.com/SpeedCode210/SmartInstaller">Smart Installer</a></h4>
+                    <p class="reveal"> Un installeur web minimaliste et moderne sous WPF avec un thème à la Windows 11 en C# que j'ai créé pour Eclipium.
+                    </p>
+                </div>
+
+                <div class="logiciel">
+                    <i class="icon fas fa-mobile-alt"></i>
+
+                    <h4 class="reveal">TamaLearn</h4>
+                    <p class="reveal">Une application pour apprendre la langue Tamazight créée sous Xamarin.Forms en C# ! <a
+                            href="https://play.google.com/store/apps/details?id=com.eclipium.tamalearn&hl=fr&gl=US">Télécharger</a> (application
+                        uniquement disponible sur pc).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <footer>
+        <div class="inner-width">
+            <div class="copyright">
+                Copyright © 2020 - <span class="date">2021</span> Raouf Ould Ali
+            </div>
+        </div>
+    </footer>
+
+    <button class="goTop fas fa-arrow-up" style="display: none;"></button>
+
+    <script src="assets/js/reveal.min.js"></script>
+    <script src="assets/js/app.js"></script>
+
+</body>
+
+</html>
