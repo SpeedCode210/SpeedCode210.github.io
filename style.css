@@ -66,7 +66,7 @@ nav img{
 
 #section1{
     min-height: 100vh;
-    background-image: url("Assets/Background.jpg");
+    background-image: url("Assets/Background.webp");
     background-attachment: fixed;
     background-size: cover;
     background-position: right;
@@ -305,28 +305,28 @@ footer{
 }
 
 .icon-eclipium {
-    -webkit-mask-image: url(Assets/eclipium.png);
-    mask-image: url(Assets/eclipium.png);
+    -webkit-mask-image: url(Assets/eclipium.webp);
+    mask-image: url(Assets/eclipium.webp);
 }
 .icon-si {
-    -webkit-mask-image: url(Assets/SmartInstaller.png);
-    mask-image: url(Assets/SmartInstaller.png);
+    -webkit-mask-image: url(Assets/SmartInstaller.webp);
+    mask-image: url(Assets/SmartInstaller.webp);
 }
 .icon-astrare {
-    -webkit-mask-image: url(Assets/Astrare.png);
-    mask-image: url(Assets/Astrare.png);
+    -webkit-mask-image: url(Assets/Astrare.webp);
+    mask-image: url(Assets/Astrare.webp);
 }
 .icon-lsam {
-    -webkit-mask-image: url(Assets/LSAM.png);
-    mask-image: url(Assets/LSAM.png);
+    -webkit-mask-image: url(Assets/LSAM.webp);
+    mask-image: url(Assets/LSAM.webp);
 }
 .icon-ss {
-    -webkit-mask-image: url(Assets/SpeedCodeSnippets.png);
-    mask-image: url(Assets/SpeedCodeSnippets.png);
+    -webkit-mask-image: url(Assets/SpeedCodeSnippets.webp);
+    mask-image: url(Assets/SpeedCodeSnippets.webp);
 }
 .icon-usaiii {
-    -webkit-mask-image: url(Assets/UsaIII.png);
-    mask-image: url(Assets/UsaIII.png);
+    -webkit-mask-image: url(Assets/UsaIII.webp);
+    mask-image: url(Assets/UsaIII.webp);
 }
 
 .project:hover .icon{
