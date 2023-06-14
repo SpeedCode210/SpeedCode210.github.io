@@ -271,10 +271,17 @@ footer{
 }
 
 #projects-content{
-    padding: 24px 64px 64px 64px;
+    padding: 24px 64px 0px 64px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+}
+
+#projects-2{
+    padding: 0px 64px 64px 64px;
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
 }
+
 
 .project{
     width: 90%;
@@ -343,7 +350,7 @@ a{
 }
 
 @media screen and (max-width: 950px) {
-    #projects-content{
+    #projects-2{
         grid-template-columns: repeat(2, 1fr); 
     }
 }
@@ -393,6 +400,9 @@ a{
     }
 
     #projects-content{
+        grid-template-columns: 1fr; 
+    }
+    #projects-2{
         grid-template-columns: 1fr; 
     }
 }
