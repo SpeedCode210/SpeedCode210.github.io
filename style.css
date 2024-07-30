@@ -23,6 +23,14 @@
     }
 }
 
+a{
+    color: var(--accent-foreground);
+}
+
+a:visited{
+    color: var(--accent-foreground);
+}
+
 html {
     scroll-behavior: smooth;
     color: var(--foreground);
@@ -111,7 +119,7 @@ nav img{
     margin-bottom: 0px;
     padding: 0;
     margin: 0;
-    content: "Raouf Ouldali";
+    content: "Raouf Ould Ali";
 }
 
 #content1 h1:hover:after{
@@ -323,6 +331,10 @@ footer{
 .icon-astrare {
     -webkit-mask-image: url(Assets/Astrare.webp);
     mask-image: url(Assets/Astrare.webp);
+}
+.icon-aoi {
+    -webkit-mask-image: url(https://algerianoi.com/aoi_white.png);
+    mask-image: url(https://algerianoi.com/aoi_white.png);
 }
 .icon-lsam {
     -webkit-mask-image: url(Assets/LSAM.webp);
