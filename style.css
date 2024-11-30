@@ -95,6 +95,10 @@ nav img{
     margin-bottom: auto;
 }
 
+.btn-rnd:visited{
+    color:white;
+}
+
 .btn-rnd:hover{
     background-color: #fff3;
 }
@@ -203,9 +207,29 @@ nav img{
     font-weight: 300;
 }
 
-.skillstable{
-    display: grid;
-    grid-template-columns: max-content auto max-content auto;
+.skill-table{
+    display: flex;          
+    justify-content: center; 
+    flex-wrap: wrap;  
+    gap: 10px;              
+    text-align: center;
+    max-width: 90vw;
+}
+
+.skill-table .devicon:hover{
+    color: var(--foreground-inv);
+    background-color: var(--accent-foreground);
+    transition-duration: 400ms;
+}
+
+.skill-table .devicon{
+    border: var(--accent-foreground) solid 1px;
+    color: var(--accent-foreground);
+    font-size: 80px;
+    transition-duration: 400ms;
+    padding: 10px;
+    border-radius: 15px;
+    display: block;
 }
 
 .progress-bg{
@@ -247,9 +271,15 @@ nav img{
 .btn-network{
     grid-row: 1;
     color: var(--accent-foreground);
-    border-radius: 50%;
+    border-radius: 50px;
     transition-duration: 300ms;
     text-align: center;
+    padding-top: 2px;
+    padding: 5px;
+}
+
+.btn-discord{
+    background-color: var(--accent-background);
 }
 
 .btn-network:hover{
@@ -402,10 +432,6 @@ a{
         padding-left: 1vw;
     }
     
-    .skillstable{
-        display: grid;
-        grid-template-columns: max-content auto;
-    }
 
     .progress-bg{
         margin: 0px 10px 0px 10px;
