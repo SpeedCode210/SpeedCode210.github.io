@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@plugin 'tailwind-scrollbar';
+
+.hide-nav-title span{
+    display: none;
+}
