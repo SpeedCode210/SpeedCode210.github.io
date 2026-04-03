@@ -28,7 +28,7 @@ export default function Teaching() {
             <span className="text-sm ml-4 font-normal text-slate-500 italic">2024 - Present</span>
           </a>
           <p className="text-slate-700 indent-3 mt-2">
-            Having started my journey here, I now contribute as a lecturer and organizer. I was a key organizer for the <strong>ALMO Finals 2025</strong> and currently lead technical operations. I also represented Algeria as the <strong>Deputy Leader</strong> of the national team at the <strong>OFM 2025</strong>.
+            Having started my journey here, I now contribute as a lecturer and organizer. I was a key organizer for the <strong>ALMO Finals 2025</strong> and currently lead technical operations. I also represented Algeria as the <strong>Deputy Leader</strong> of the junior team at the <strong>OFM 2025</strong> and the <strong>Team Leader</strong> of the senior team at <strong>OFM 2026</strong>.
           </p>
         </div>
 
